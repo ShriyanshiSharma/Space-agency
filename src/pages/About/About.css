@@ -1,0 +1,68 @@
+.about{
+    background-color: black;
+}
+.bck-img{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    opacity: 0.7;
+}
+
+.bck-img:hover{
+    opacity: 1;
+    mask-image: none;
+}
+.about__at{
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.about__at > h2 {
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 40px;
+    justify-content: center;
+    font-weight: 300;
+    background: linear-gradient(to right, #dcdcdc, #8e82b9, #5f7197, #616ae3, #e0e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about__data{
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+
+.about__team{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: aliceblue;
+    background-color:rgba(28, 28, 86, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+.about__team > h1{
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}

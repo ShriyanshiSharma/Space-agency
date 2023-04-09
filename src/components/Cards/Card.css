@@ -1,0 +1,54 @@
+
+.card{
+    flex-basis: 27%;
+    height:380px;
+    margin: 2px 2px;
+    /* padding-left: 10px; */
+    background-color: aqua;
+    background: transparent;
+    position: relative;
+    border: 2px solid;
+    border-color: rgb(25, 27, 44) rgb(11, 22, 49) rgb(26, 15, 71); 
+    margin-bottom: 40px;
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card__image{
+width: 100%;
+height: 100%;
+}
+
+.channel{
+    width:40%;
+    position: absolute;
+}
+
+.card__content{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    padding-right: 10px;
+    color: antiquewhite;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    text-shadow: 2px 1px  black;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .card{
+        flex-basis: 45%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .card{
+        flex-basis: 70%;
+    }
+
+}

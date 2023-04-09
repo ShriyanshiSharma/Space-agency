@@ -1,0 +1,19 @@
+.news{
+    background-image: linear-gradient(to bottom, #000000,#0c072a, #000000);
+    margin: 0;
+    margin-top: -22px;
+    padding: 10px 50px ;
+}
+
+.news__l{
+    font-size: 45px;
+    text-transform:uppercase ;
+    font-weight: 400;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.news__display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

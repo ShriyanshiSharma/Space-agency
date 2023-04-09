@@ -1,0 +1,118 @@
+.ship{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, #000000,#110752, #000000);
+    margin-bottom: 400px;
+    background-color: #616ae3;
+}
+.ship >h1 {
+    z-index: 100;
+    position:absolute;
+    top: -80px;
+    color:aliceblue;
+    font-weight: 300;
+    font-size: 32px;
+    padding-bottom: 10px;
+    margin: 0 5%;
+
+}
+.ship__content{
+    z-index: 60;
+    position: absolute;
+    margin-top:-2%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(27, 27, 50);
+    display: flex;
+    padding:0 10px;
+    border-radius: 15px;
+}
+.ship__deta{
+    display: flex;
+    z-index: 100;
+}
+
+.ship__left{
+    width: 70%;
+    padding-left: 20px;
+}
+
+.ship__heading{
+    letter-spacing: 1;
+    color: rgb(140, 141, 141);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.ship_info{
+    letter-spacing: 1;
+    color: rgb(99, 105, 105);
+    font-weight: 300;
+}
+
+hr{
+    height: 1px;
+    background-image: linear-gradient(to right, #dcdcdc, #8e82b9, #5f7197, #616ae3, #e0e0e0);
+    border: none;
+}
+.ship__right{
+    overflow:hidden ;
+    margin-top: 2%;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    background-color: rgb(23, 23, 76);
+    height: 400px;
+    width: 30%;
+    border-left: 2px solid rgb(30,30,0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 1050px) {
+
+    .ship >h1 {
+        font-size: 25px;
+        top:-50px;
+    }
+    .ship__content{
+        margin-top: 10px;
+    }
+    .ship__right{
+        margin-top: 6%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .ship >h1 {
+        font-size: 20px;
+        top:-30px;
+    }
+    .ship__right{
+        margin-top: 8%;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .ship >h1 {
+        font-size: 15px;
+        top:-20px;
+    }
+    .ship__right{
+        margin-top: 10%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .ship__right{
+        margin-top: 12%;
+    }
+
+}

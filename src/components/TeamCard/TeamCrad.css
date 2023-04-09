@@ -1,0 +1,68 @@
+.teamcard{
+    
+    background-image: linear-gradient(to left, #000000,#0c072a, #000000);
+    flex-basis: 25%;
+    margin: 20px;
+    border:1px solid white;
+    border-top-right-radius:100px;
+    border-color: #3421a2 #0c1a5e #1a1537;
+
+}
+
+.teamcard > img{
+    width: 100%;
+    border-top-right-radius:100px;
+}
+
+
+.team__data{
+    padding: 0px 10px;
+}
+
+.team__data >h2{
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #dcdcdc, #8e82b9, #5f7197, #616ae3, #e0e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.name :hover{
+    background-color: #5f7197;
+}
+.post{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+.about_team{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+}
+
+.teamcard:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 950px) {
+    .teamcard{
+        flex-basis: 35%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .teamcard{
+        flex-basis: 55%;
+    }
+
+}
