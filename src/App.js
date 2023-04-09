@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Header/>
     <Routes>
-    <Route exact path='/' element={<Front/>}/>
+    <Route exact path='/Space-agency' element={<Front/>}/>
     <Route exact path='/about' element={<About/>}/>
     <Route exact path='/news' element={<Room/>}/>
     <Route exact path='/services' element={<Services/>}/>

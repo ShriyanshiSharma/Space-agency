@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className='header'>
-        <Link to="/">
+        <Link to="/Space-agency">
             <img  src={logo}className="header__logo" />
         </Link>
         <ul className='header__content'>
