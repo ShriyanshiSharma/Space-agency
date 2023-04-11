@@ -8,7 +8,7 @@ import x from "../../assets/x.svg"
 
 function Header() {
     const [show ,setShow] = useState(1)
-    const [menu,setMenu] = useState(1)
+    const [menu,setMenu] = useState(0)
   return (
     <div className='header'>
         <Link to="/Space-agency">
