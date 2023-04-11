@@ -11,8 +11,8 @@
 .home__content{
     position: absolute;
     margin: 0% 5%;
-    width: 50%;
-    top: 12%;
+    width: 60%;
+    top: 10%;
     color: aliceblue;
 }
 .home__content > h1{
@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 950px) {
+    .home__content{
+        top: 10%;
+    }
     .home__content > h1{
         font-size: 75px;
     }
