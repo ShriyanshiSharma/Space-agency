@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Space-agency/static/css/main.e3fccad7.css",
+    "main.css": "/Space-agency/static/css/main.16620525.css",
     "main.js": "/Space-agency/static/js/main.5e5ac8c3.js",
     "static/media/5.jpg": "/Space-agency/static/media/5.11695c104d5ade700572.jpg",
     "static/media/Vikram-S.png": "/Space-agency/static/media/Vikram-S.607004abce581284546d.png",
     "static/media/cryo-firing.jpeg": "/Space-agency/static/media/cryo-firing.c48d90c30b3f577bd29a.jpeg",
     "static/media/logo.svg": "/Space-agency/static/media/logo.24d826d58f0e9588224f185a78abdb66.svg",
     "index.html": "/Space-agency/index.html",
-    "main.e3fccad7.css.map": "/Space-agency/static/css/main.e3fccad7.css.map",
+    "main.16620525.css.map": "/Space-agency/static/css/main.16620525.css.map",
     "main.5e5ac8c3.js.map": "/Space-agency/static/js/main.5e5ac8c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3fccad7.css",
+    "static/css/main.16620525.css",
     "static/js/main.5e5ac8c3.js"
   ]
 }
