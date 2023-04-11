@@ -1,6 +1,6 @@
 import React from 'react'
 import "./News.css"
-import Card from '../Cards/Card'
+import Card from './Card'
 import Sdata  from '../Sdata'
 import 'aos/dist/aos.css'
 import Aos from 'aos';
